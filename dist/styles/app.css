@@ -2,7 +2,7 @@
 
 .progress-bar {
   height: 3px;
-  background: darkgrey;
+  background: black;
   width: 0%;
   z-index: 10;
 }
@@ -13,6 +13,10 @@
   background: none;
   position: fixed;
   z-index: 25;
+}
+
+.white {
+  background-color: white !important;
 }
 
 /* FOOTER */
@@ -114,70 +118,28 @@
 
 @font-face {
   font-family: "cormorantbold";
-  src: url("/assets/fonts/cormorant-bold-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "cormorantbold_italic";
-  src: url("/assets/fonts/cormorant-bolditalic-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-bolditalic-webfont.woff") format("woff");
+  src: url(/fonts/cormorant-bold-webfont.woff2?9adce1fc092ac6fb5a0720a09fc71e1b) format("woff2"), url(/fonts/cormorant-bold-webfont.woff?b1db91d09f6197130f7d434de6c7f84b) format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "cormorantitalic";
-  src: url("/assets/fonts/cormorant-italic-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "cormorantlight";
-  src: url("/assets/fonts/cormorant-light-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "cormorantlight_italic";
-  src: url("/assets/fonts/cormorant-lightitalic-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-lightitalic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "cormorantmedium";
-  src: url("/assets/fonts/cormorant-medium-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-medium-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "cormorantmedium_italic";
-  src: url("/assets/fonts/cormorant-mediumitalic-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-mediumitalic-webfont.woff") format("woff");
+  src: url(/fonts/cormorant-italic-webfont.woff2?6cbb800058751233fd22790af5bb9180) format("woff2"), url(/fonts/cormorant-italic-webfont.woff?39666cc99fe1683d42176b774efb89ba) format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "cormorantregular";
-  src: url("/assets/fonts/cormorant-regular-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-regular-webfont.woff") format("woff");
+  src: url(/fonts/cormorant-regular-webfont.woff2?fdd9047bac359d8375bf8fa49d9b7e18) format("woff2"), url(/fonts/cormorant-regular-webfont.woff?6fde07cdd09af5fe05616c4cb71c8b05) format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "cormorantsemibold";
-  src: url("/assets/fonts/cormorant-semibold-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "cormorantsemibold_italic";
-  src: url("/assets/fonts/cormorant-semibolditalic-webfont.woff2") format("woff2"), url("/assets/fonts/cormorant-semibolditalic-webfont.woff") format("woff");
+  src: url(/fonts/cormorant-semibold-webfont.woff2?0da4ad5b99f8df030530836b1e320899) format("woff2"), url(/fonts/cormorant-semibold-webfont.woff?0fabe4daf976a18dd824347fcd3370ac) format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -385,7 +347,7 @@ img {
 }
 
 .image__el--eye {
-  background-image: url(/assets/images/single-eye.svg);
+  background-image: url(/images/single-eye.svg?b228bb44b51f9e3526beaa252ffec1e8);
   width: 362px;
   height: 210px;
   background-size: contain;
@@ -393,35 +355,35 @@ img {
 
 .image__el--meule {
   height: 300px;
-  background-image: url(/assets/images/image01.jpg);
+  background-image: url(/images/image01.jpg?a1fd9fde2a3945557e8ce9a075bf5824);
 }
 
 .image__el--couch {
   height: 110px;
   width: 200px;
-  background-image: url(/assets/images/image02.jpg);
+  background-image: url(/images/image02.jpg?3dbbb2234f96f9532f76d9fff9ca1d7d);
 }
 
 .image__el--sea {
   height: 600px;
-  background-image: url(/assets/images/image03.jpg);
+  background-image: url(/images/image03.jpg?23b3754cf87cac177bc3777204b787a3);
 }
 
 .image__el--fleurs {
   height: 50vh;
-  background-image: url(/assets/images/image04.jpg);
+  background-image: url(/images/image04.jpg?2b5e8108277c5564d2957830a8b0dbf9);
 }
 
 .image__el--men {
   height: 50vh;
-  background-image: url(/assets/images/image05.jpg);
+  background-image: url(/images/image05.jpg?0dd29cee099b45d0c4a701d3e152a721);
   background-position: center;
   background-size: auto;
 }
 
 .image__el--star1 {
   height: 300px;
-  background-image: url(/assets/images/star-br.svg);
+  background-image: url(/images/star-br.svg?1619886fef0f7dbdbd5aa69e07f4ea54);
   background-position: center;
 }
 
@@ -504,7 +466,7 @@ img {
 @media (min-width: 620px) and (max-width: 1050px) {
   /* HEADER */
 
-  .navbar {
+  /*.navbar {
     background-color: inherit;
     box-shadow: none;
     top: 0;
@@ -529,18 +491,17 @@ img {
     width: inherit;
     z-index: 25;
     height: inherit;
-  }
 
-  .overlay__el {
-    padding: 5px 0;
-    font-size: 30px;
-    color: #000;
-    mix-blend-mode: difference;
-  }
+    &__el {
+      padding: 5px 0;
+      font-size: 30px;
+    }
 
-  .overlay__el:before {
-    display: none;
+    &__el:before  {
+      display: none;
+    }
   }
+  */
 
   /* SECTION */
 
@@ -873,6 +834,14 @@ img {
   .btn-menu {
     display: none;
   }
+
+  .progress-bar {
+    display: none;
+  }
+
+  .progress-container {
+    display: none;
+  }
 }
 
 /* SCROLL EFFECTS */
@@ -920,6 +889,11 @@ img {
 .item__img--t1 {
   --overflow: 60px;
   --image: url(/assets/images/image01.jpg);
+}
+
+.item__img--t2 {
+  --overflow: 60px;
+  --image: url(/assets/images/image02.jpg);
 }
 
 

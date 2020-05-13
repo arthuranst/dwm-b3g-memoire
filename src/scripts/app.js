@@ -51,6 +51,25 @@ function myFunction() {
     document.getElementById("myBar").style.width = scrolled + "%";
 }
 
+/* SWITCH COLOR IF ON DARK SECTION */
+const sections = document.querySelectorAll('section')
+const progressBar = document.querySelector('.progress-bar')
+
+document.addEventListener("scroll", function () {
+    const pixels = window.pageYOffset  
+    sections.forEach(section => {
+        if (section.offsetTop - 20 <= pixels) {
+            const isDark = section.hasAttribute('data-is-dark')
+
+            if (isDark) {
+                progressBar.classList.add('white')
+            } else {
+                progressBar.classList.remove('white')
+            }
+        }
+    })
+})
+
 /*
 * demo.js
 * http://www.codrops.com
@@ -61,6 +80,8 @@ function myFunction() {
 * Copyright 2019, Codrops
 * http://www.codrops.com
 */
+
+/*
 {
     // helper functions
     const MathUtils = {
@@ -257,11 +278,12 @@ function myFunction() {
             requestAnimationFrame(() => this.render());
         }
     }
-
+*/
     /***********************************/
     /********** Preload stuff **********/
 
     // Preload images
+    /*
     const preloadImages = () => {
         return new Promise((resolve, reject) => {
             imagesLoaded(document.querySelectorAll('.item__img'), {background: true}, resolve);
@@ -278,3 +300,4 @@ function myFunction() {
         new SmoothScroll();
     });
     }
+    */

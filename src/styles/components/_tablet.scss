@@ -1,7 +1,7 @@
 /* TABLET */
 @media (min-width: 620px) and (max-width: 1050px) {
   /* HEADER */
-  .navbar {
+  /*.navbar {
     background-color: inherit;
     box-shadow: none;
     top: 0;
@@ -30,14 +30,13 @@
     &__el {
       padding: 5px 0;
       font-size: 30px;
-      color: #000;
-      mix-blend-mode: difference;
     }
 
     &__el:before  {
       display: none;
     }
   }
+  */
   /* SECTION */
   .section {
     padding: 100px 0;
