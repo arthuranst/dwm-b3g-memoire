@@ -1,0 +1,87 @@
+/* SECTION */
+.section {
+  padding: 75px 0;
+}
+
+.section--cta {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 20;
+  padding: 0;
+}
+
+.section--cta figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+}
+
+.section--cta figure img {
+  object-fit: none;
+  width: 100%;
+  height: 100%;
+}
+
+.section--cta .btn {
+  position: absolute;
+  font-size: 1.2em;
+  top: 49%;
+  width: 400px !important;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section--cta .btn:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -100px;
+  z-index: -1;
+  height: 220px;
+  width: 100%;
+  background: url("/assets/images/star.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section__intro {
+  height: calc(100vh - 80px);
+  padding: 0;
+
+}
+
+.section__demi {
+  background-color: black;
+  color: #fff;
+  padding: 50px 35px;
+}
+
+.section--br {
+  background-color: #AB785B;
+}
+
+.section__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0 150px;
+}
+
+.ctn {
+  padding: 0 35px;
+}
+
+.ctn--flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+
+  & p {
+    position: absolute;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,136 @@
+/* TABLET */
+@media (min-width: 620px) and (max-width: 1050px) {
+  /* HEADER */
+  .navbar {
+    background-color: inherit;
+    box-shadow: none;
+    top: 0;
+    bottom: inherit;
+    width: inherit;
+    display: block;
+    transition: none;
+    z-index: 25;
+  }
+
+  .btn-menu {
+    display: none;
+  }
+
+  .overlay {
+    display: block;
+    background-color: inherit;
+    box-shadow: none;
+    bottom: inherit;
+    top: 0;
+    padding: 70px 35px 0;
+    width: inherit;
+    z-index: 25;
+    height: inherit;
+
+    &__el {
+      padding: 5px 0;
+      font-size: 30px;
+      color: #000;
+      mix-blend-mode: difference;
+    }
+
+    &__el:before  {
+      display: none;
+    }
+  }
+  /* SECTION */
+  .section {
+    padding: 100px 0;
+
+    &__intro {
+      padding: 0;
+      height: 100vh;
+    }
+  }
+
+  .section__demi .ctn {
+    display: block;
+  }
+
+  .section--cta {
+    padding: 0;
+  }
+
+  .ctn {
+    padding: 0 65px;
+    display: grid;
+    max-width: 600px;
+    margin: auto;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 30px;
+
+    &--flex {
+      display: flex;
+    }
+  }
+
+  /* TEXT */
+  .title__med {
+    font-size: 60px;
+    line-height: 50px;
+  }
+
+  .title__big {
+    font-size: 75px;
+    line-height: 65px;
+    grid-column: 2/9;
+  }
+
+  .text__sm {
+    margin-left: initial;
+  }
+
+  /* IMAGE */
+  .image__el--meule {
+    grid-column: 1/5;
+  }
+
+  .image__el--couch {
+    grid-column: 1/6;
+    height: 220px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .image__el--sea {
+    height: 350px;
+    margin: 0 65px;
+    margin-top: 150px;
+    width: calc(100% - 130px);
+    background-position: center;
+  }
+
+  .image__el--men {
+    background-size: cover;
+  }
+
+  /* COLUMN */
+  .column__15 {
+    grid-column: 1/5;
+  }
+
+  .column__16 {
+    grid-column: 1/6;
+  }
+
+  .column__17 {
+    grid-column: 1/7;
+  }
+
+  .column__18 {
+    grid-column: 1/8;
+  }
+
+  .column__19 {
+    grid-column: 1/9;
+  }
+
+  .column__59 {
+    grid-column: 5/9;
+  }
+}

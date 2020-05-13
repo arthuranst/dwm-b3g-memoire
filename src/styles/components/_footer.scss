@@ -1,0 +1,93 @@
+/* FOOTER */ 
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 35px;
+}
+  
+.footer__container ul li a {
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.footer__container ul li a span {
+  display: inline-block;
+  position: relative;
+  transition: transform 500ms;
+  -webkit-transition: -webkit-transform 500ms;
+  -moz-transition: transform 500ms;
+}
+
+.footer__container ul li a span:after {
+  content: attr(data-hover);
+  position: absolute;
+  text-decoration: underline;
+  top: -30px;
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.footer__container ul li a:hover span,
+.footer__container a:focus span {
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  -moz-transform: translateY(30px);
+}
+
+.footer__container--link {
+  order: 3;
+  margin: 25px auto 0;
+}
+
+.footer__container .contact {
+  justify-content: space-between;
+  flex-direction: initial;
+  border: 1px solid #000;
+  padding: 15px 25px;
+  align-items: center;
+  height: 50px;
+  width: 250px;
+  margin: 50px auto;
+  order: 1;
+}
+
+.footer__container .contact p {
+  margin: 0;
+}
+
+.footer__container .contact a {
+  line-height: 0;
+}
+
+.footer__container ul {
+  margin: 25px 0;
+  line-height: 25px;
+  order: 2;
+}
+
+.footer__container li {
+  font-size: 16px;
+}
+
+.footer__container li :hover {
+  text-decoration: underline;
+}
+
+.footer__container li:first-child {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.footer__copyright {
+  font-size: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.contact__el:hover {
+  text-decoration: underline;
+}

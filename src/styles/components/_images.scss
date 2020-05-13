@@ -1,0 +1,71 @@
+/* IMAGES */
+img {
+  max-width: 100%;
+}
+
+.image__sm {
+  width: 150px;
+  margin-bottom: 100px;
+}
+
+.image__med {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.image__star {
+  width: 400px;
+}
+
+.image__logo {
+  width: 33px;
+  height: 35px;
+}
+
+.image__el {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image__el--eye {
+  background-image: url(/assets/images/single-eye.svg);
+  width: 362px;
+  height: 210px;
+  background-size: contain;
+}
+
+.image__el--meule {
+  height: 300px;
+  background-image: url(/assets/images/image01.jpg);
+}
+
+.image__el--couch {
+  height: 110px;
+  width: 200px;
+  background-image: url(/assets/images/image02.jpg);
+}
+
+.image__el--sea {
+  height: 600px;
+  background-image: url(/assets/images/image03.jpg);
+}
+
+.image__el--fleurs {
+  height: 50vh;
+  background-image: url(/assets/images/image04.jpg);
+}
+
+.image__el--men {
+  height: 50vh;
+  background-image: url(/assets/images/image05.jpg);
+  background-position: center;
+  background-size: auto;
+}
+
+.image__el--star1 {
+  height: 300px;
+  background-image: url(/assets/images/star-br.svg);
+  background-position: center;
+
+}

@@ -1,0 +1,31 @@
+/* TEXT */
+.title {
+  font-family: "cormorantregular";
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 30px;
+}
+
+.title__big {
+  margin-bottom: 75px;
+}
+
+.title__med {
+  text-align: center;
+}
+
+.title__cta {
+  text-align: center;
+  font-size: 28px;
+}
+
+.title__cta:hover {
+  text-decoration: underline;
+}
+
+.text__sm {
+  font-family: "cormorantregular";
+  font-size: 18px;
+  line-height: 24px;
+  margin: 100px 0 100px 30%;
+}

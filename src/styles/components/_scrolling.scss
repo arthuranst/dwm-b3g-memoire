@@ -1,0 +1,48 @@
+/* SCROLL EFFECTS */
+
+[data-scroll] {
+	will-change: transform;
+}
+
+.item {
+	position: relative;
+	will-change: transform;
+}
+
+.item:nth-child(even)::before {
+	right: 0;
+}
+
+.item__img-wrap {
+	--aspect-ratio: 1/1.5;
+	overflow: hidden;
+	width: 500px;
+	margin: 0 auto;
+	padding-bottom: calc(100% / (var(--aspect-ratio)));
+	max-width: calc(100% - 2rem);
+	will-change: transform;
+}
+
+.item .item__img-wrap {
+    --aspect-ratio: 60/75;
+        grid-column: 2/8;
+	
+}
+
+.item__img {
+	--overflow: 40px;
+	height: calc(100% + (2 * var(--overflow)));
+	top: calc( -1 * var(--overflow));
+	width: 100%;
+	position: absolute;
+	background-image: var(--image);
+	background-size: cover;
+	background-position: 50% 0%;
+	will-change: transform;
+}
+
+.item__img--t1 {
+    --overflow: 60px;
+    --image: url(/assets/images/image01.jpg);
+    
+}
