@@ -521,8 +521,8 @@ function myFunction() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/arthuranst/Desktop/memoire-design/website-present/site-presentation/src/scripts/app.js */"./src/scripts/app.js");
-module.exports = __webpack_require__(/*! /Users/arthuranst/Desktop/memoire-design/website-present/site-presentation/src/styles/app.scss */"./src/styles/app.scss");
+__webpack_require__(/*! /Users/arthuranst/Desktop/memoire-design/website-present/dwm-b3g-memoire/src/scripts/app.js */"./src/scripts/app.js");
+module.exports = __webpack_require__(/*! /Users/arthuranst/Desktop/memoire-design/website-present/dwm-b3g-memoire/src/styles/app.scss */"./src/styles/app.scss");
 
 
 /***/ })
